@@ -1,4 +1,7 @@
 import { notFound } from "next/navigation";
+
+// Только заранее сгенерированные пути
+export const dynamicParams = false;
 import type { Metadata } from "next";
 
 import { cities } from "@/data/cities";
